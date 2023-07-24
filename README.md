@@ -90,7 +90,7 @@ Congratulations! You have successfully downloaded and installed Node.js on your 
 ## Step 4: Install prompt-sync
 Prompt-sync is a Node.js package that this program utilizes to prompt users for input. Without the prompt-sync package installed, the program will throw an error.
 
-To install prompt-sync, navigate to the project folder in your CLI (see instructions below if you need help navigating to the project folder) and then type 'npm install prompt-sync' and hit enter. The package will install itself and you should then be able to run the program without any errors.
+To install prompt-sync, navigate to the project folder in your CLI (see instructions below if you need help navigating to the project folder) and then type 'npm install prompt-sync' and hit enter. The package will install itself and you should then be able to run the program without any errors. Note: If the install command throws an error, you may need to run a basic 'npm install' in the project directory before installing prompt-sync.
 
 # Instructions for using this tool
 
