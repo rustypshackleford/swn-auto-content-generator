@@ -1,14 +1,14 @@
 {
-  "name": "swn",
+  "name": "swn-acg",
   "version": "1.0.0",
-  "description": "The SWN Toolbox is a collection of JavaScript files designed to speed up random generation of various Stars Without Number things.",
+  "description": "The SWN Automatic Content Generator is a collection of JavaScript files designed to speed up random generation of various Stars Without Number things.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "prompt-sync": "^4.2.0"
   }
