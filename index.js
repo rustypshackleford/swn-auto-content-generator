@@ -82,7 +82,6 @@ function printMenu() {
       break;
     case '13':
       console.log('\nGenerating output file and exiting program...');
-      generateOutput(content);
       console.log('WARNING: Any previous contents of the output file are being overwritten by this process.' + 
       ' If you wish to retain previously generated content, back it up elswhere before this step.');
 
