@@ -80,9 +80,9 @@ bash
 ## Step 3: Verify Installation
 To verify that Node.js and npm are installed correctly, open a terminal or command prompt and type the following commands:
 
-Copy code
-node -v
-npm -v
+	node -v
+	npm -v
+
 The version numbers of Node.js and npm should be displayed, confirming that the installation was successful.
 
 Congratulations! You have successfully downloaded and installed Node.js on your system. You are now ready to start building applications using Node.js.
