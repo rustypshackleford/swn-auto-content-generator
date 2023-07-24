@@ -56,6 +56,7 @@ After downloading the Linux binaries (usually in your "Downloads" folder), open 
 Navigate to the folder where the downloaded file is located using the cd command. For example:
 
 bash
+
 	cd ~/Downloads
 
 Extract the downloaded archive using the following command:
@@ -66,10 +67,13 @@ Note: Replace vxx.x.x with the version number you downloaded.
 Move the extracted files to the desired location. For example, you can move them to /usr/local/:
 
 bash
+
 	sudo mv node-vxx.x.x-linux-x64 /usr/local/
-	Create a symbolic link to make Node.js and npm (Node Package Manager) accessible from the command line:
+	
+Create a symbolic link to make Node.js and npm (Node Package Manager) accessible from the command line:
 
 bash
+
 	sudo ln -s /usr/local/node-vxx.x.x-linux-x64/bin/node /usr/local/bin/node
 	sudo ln -s /usr/local/node-vxx.x.x-linux-x64/bin/npm /usr/local/bin/npm
 	

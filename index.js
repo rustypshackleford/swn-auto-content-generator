@@ -4,18 +4,18 @@ const prompt = require('prompt-sync')();
 const { stdin: input, stdout: output } = require('node:process');
 
 // Generative modules
-const adventure = require('./adventure');
-const alien = require('./alien');
-const animal = require('./animal');
-const architecture = require('./architecture');
-const corporation = require('./corporation');
-const faction = require('./faction');
-const heresy = require('./heresy');
-const npc = require('./npc');
-const politicalParty = require('./politicalParty');
-const religion = require('./religion');
-const room = require('./room');
-const world = require('./world');
+const adventure = require('./generators/adventure');
+const alien = require('./generators/alien');
+const animal = require('./generators/animal');
+const architecture = require('./generators/architecture');
+const corporation = require('./generators/corporation');
+const faction = require('./generators/faction');
+const heresy = require('./generators/heresy');
+const npc = require('./generators/npc');
+const politicalParty = require('./generators/politicalParty');
+const religion = require('./generators/religion');
+const room = require('./generators/room');
+const world = require('./generators/world');
 
 console.log('Welcome to the interactive Stars Without Number Automatic Content Generator (SWN ACG). Upon exiting this program, all content generated during the session will be written to a file ' +  
   'for later review. Note: This file is overwritten with fresh content after each use. If you wish to retain previously generated content, copy the contents of the output file to a different ' + 
