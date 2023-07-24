@@ -100,7 +100,7 @@ For example, if my project folder was located in C:/Users/myUserName/Downloads/s
 
 1. Start up a CLI instance with my program of choice (Git Bash for me)
 
-2. The CLI instance may not start me in the right place to cd into this folder, so I will use 'cd ..' to exit up one level until I reach a folder that contains the one I'm looking for. Let's say I've used 'cd ..' to go up one leve until I reach C:/Users/myUserName/
+2. The CLI instance may not start me in the right place to cd into this folder, so I will use 'cd ..' to exit up one level until I reach a folder that contains the one I'm looking for. Let's say I've used 'cd ..' to go up one level until I reach C:/Users/myUserName/
 
 3. Once I reach a folder that I can correctly cd into, I will use the command with the folder name to enter it. 'cd Downloads' will put me into the Downloads folder, and likewise 'cd swn-auto-content-generator' will put me into the folder containing the project files. Terminals will vary in how they indicate this, but you should see something like '~/swn-auto-content-generator' in front of where your cursor is blinking to indicate that you've entered the right folder.
 
@@ -110,7 +110,7 @@ For example, if my project folder was located in C:/Users/myUserName/Downloads/s
 
 # License
 
-The Stars Without Number Toolbox is licensed under the MIT License:
+The Stars Without Number Automatic Content Generator is licensed under the MIT License:
 
 Copyright (c) 2023 Steve Simenic, Russell Saia
 
