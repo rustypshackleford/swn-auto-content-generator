@@ -112,7 +112,7 @@ For example, if my project folder was located in C:/Users/myUserName/Downloads/s
 
 The Stars Without Number Toolbox is licensed under the MIT License:
 
-Copyright (c) 2017 Steve Simenic
+Copyright (c) 2023 Steve Simenic, Russell Saia
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
